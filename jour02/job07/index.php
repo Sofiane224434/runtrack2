@@ -1,8 +1,8 @@
 <?php
-$hauteur = 5;
-$espace_d = $hauteur;
+$hauteur = 20;
+$espace_d = $hauteur - 1;
 $espace_e = 0;
-for ($i = 0; $i < $hauteur; $i++) {
+for ($i = 0; $i < $hauteur - 1; $i++) {
     for ($j = 0; $j < $espace_d; $j++) {
         echo "&nbsp;";
     }
@@ -15,7 +15,7 @@ for ($i = 0; $i < $hauteur; $i++) {
     echo "\\<br>";
 }
 echo "/";
-for ($l = 0; $l < $hauteur; $l++) {
+for ($l = 0; $l < $hauteur - 1; $l++) {
     echo "_";
 }
 echo "\\<br>";
