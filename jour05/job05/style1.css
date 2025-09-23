@@ -1,0 +1,33 @@
+.styleform {
+    /* bg-blue-100 + border-blue-300 */
+    background-color: #DBEAFE;       /* Tailwind blue-100 */
+    border: 1px solid #93C5FD;       /* Tailwind blue-300 */
+}
+
+.stylesel {
+    /* border-4 border-blue-300 rounded font-[sans-serif] px-4 py-2 */
+    border: 4px solid #93C5FD;       /* 4px border in blue-300 */
+    border-radius: 0.25rem;          /* rounded */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    padding: 0.5rem 1rem;            /* py-2 px-4 */
+    background: transparent;
+}
+
+.styleopt {
+    /* bg-blue-500 text-white font-[sans-serif] */
+    background-color: #3B82F6;       /* Tailwind blue-500 */
+    color: #ffffff;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    padding: 0.25rem 0.5rem;         /* keep small padding (optional) */
+    border: none;
+}
+
+.stylebtn {
+    /* bg-blue-500 text-white px-4 py-2 rounded */
+    background-color: #3B82F6;       /* Tailwind blue-500 */
+    color: #ffffff;
+    padding: 0.5rem 1rem;            /* py-2 px-4 */
+    border-radius: 0.25rem;          /* rounded */
+    border: none;
+    cursor: pointer;
+}

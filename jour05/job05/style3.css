@@ -1,0 +1,28 @@
+.styleform {
+    background-color: #fee2e2;
+    border: 1px solid #fca5a5; 
+}
+
+.stylesel {
+    border: 2px solid #fca5a5; 
+    border-radius: 0.25rem;   
+    font-family: monospace;   
+    padding: 0.5rem 1rem;      
+    background: transparent;
+}
+
+.styleopt {
+    background-color: #ef4444; 
+    color: #ffffff;           
+    font-family: monospace;
+    padding: 0.25rem 0.5rem;
+}
+
+.stylebtn {
+    background-color: #ef4444; 
+    color: #ffffff;           
+    padding: 0.5rem 1rem;      
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+}

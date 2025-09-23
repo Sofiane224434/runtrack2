@@ -1,0 +1,28 @@
+.styleform {
+    background-color: #dcfce7; /* bg-green-100 */
+    border: 1px solid #86efac; /* border-green-300 */
+}
+
+.stylesel {
+    border: 3px solid #86efac; /* border-3 border-green-300 */
+    border-radius: 0.25rem;    /* rounded */
+    font-family: cursive;      /* font-[cursive] */
+    padding: 0.5rem 1rem;      /* py-2 px-4 */
+    background: transparent;
+}
+
+.styleopt {
+    background-color: #22c55e; /* bg-green-500 */
+    color: #ffffff;            /* text-white */
+    font-family: cursive;      /* font-[cursive] */
+    padding: 0.25rem 0.5rem;
+}
+
+.stylebtn {
+    background-color: #22c55e; /* bg-green-500 */
+    color: #ffffff;            /* text-white */
+    padding: 0.5rem 1rem;      /* py-2 px-4 */
+    border-radius: 0.25rem;    /* rounded */
+    border: none;
+    cursor: pointer;
+}
